@@ -5,11 +5,11 @@ This is an example app to showcase Cypress.io testing.
 
 ## Run Interactively 
 ```bash
-$ npx cypress open
+$ npm run cypress
 ```
 
-## Run Non Interactively 
+## Run Non-interactively
 
 ```bash
-$ npx cypress run
+$ npm test
 ```
