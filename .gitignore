@@ -1,2 +1,14 @@
 # dependencies
-/node_modules
+node_modules/*
+
+# ide files
+.idea/*
+
+# env files
+.env
+cypress.env.json
+
+# recorded videos
+/cypress/results
+/cypress/videos
+/mochawesome-report
