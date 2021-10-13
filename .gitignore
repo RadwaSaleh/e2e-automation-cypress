@@ -10,5 +10,5 @@ cypress.env.json
 
 # recorded videos
 /cypress/results
-/cypress/videos
+/cypress/videos/*
 /mochawesome-report
