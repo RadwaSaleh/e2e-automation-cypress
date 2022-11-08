@@ -1,9 +1,7 @@
-const todomvcURL = 'http://todomvc-app-for-testing.surge.sh/';
-
 describe('todo filtering', () => {
 
     beforeEach(() => {
-       cy.visit(todomvcURL);
+       cy.visit('/');
        cy.get('.new-todo').type('Learn JavaScript{enter}');
        cy.get('.new-todo').type('Cook for dinner{enter}');
        cy.get('.new-todo').type('Learn Cypress{enter}');

@@ -1,6 +1,6 @@
 # Cypress E2E Testing 
 
-This repo is meant to showcase e2e tests for example app () using Cypress.io.
+This repo is meant to showcase e2e tests for example app (https://todomvc-app-for-testing.surge.sh/) using Cypress.io.
 - Page Object Model design pattern is used, it increases readability of code and is much easier to manage.
 
 

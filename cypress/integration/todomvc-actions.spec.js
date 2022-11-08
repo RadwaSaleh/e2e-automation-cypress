@@ -1,13 +1,11 @@
 import {TodomvcPage} from "../page-objects/todomvc-page";
 
-const todomvcURL = 'http://todomvc-app-for-testing.surge.sh/';
-
 describe('todo actions', () => {
 
     const todomvcPage = new TodomvcPage();
 
     beforeEach(() => {
-        cy.visit(todomvcURL);
+        cy.visit('/');
     });
 
     it('should add a new todo item to the list', () => {
